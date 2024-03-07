@@ -5,11 +5,11 @@ st.set_page_config(layout="wide")
 
 # Embed codes for different Tableau dashboards
 dashboard_embed_codes = {
-    "Illegal Pat Down": '''
-        <iframe src="https://prod-useast-b.online.tableau.com/t/benderrusso2e46bd1bb7/views/jp_streamlit/Dashboard2?:showVizHome=no&:embed=true" width="100%" height="840"></iframe>
-    ''',
     "RAS": '''
         <iframe src="https://prod-useast-b.online.tableau.com/t/benderrusso2e46bd1bb7/views/jp_streamlit/Dashboard1?:showVizHome=no&:embed=true" width="100%" height="840"></iframe>
+    ''',
+    "Stop and Frisk": '''
+        <iframe src="https://prod-useast-b.online.tableau.com/t/benderrusso2e46bd1bb7/views/jp_streamlit/Dashboard2?:showVizHome=no&:embed=true" width="100%" height="840"></iframe>
     ''',
     "Body and Car Camera": '''
         <iframe src="https://prod-useast-b.online.tableau.com/t/benderrusso2e46bd1bb7/views/jp_streamlit/Dashboard3?:showVizHome=no&:embed=true" width="100%" height="800"></iframe>
